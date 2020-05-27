@@ -1,108 +1,127 @@
-20:49:03.028  INFO 34496 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Starting MicroserviceChassisApplication on ZEN-SENTIMENTO with PID 34496 (C:\workspace\study\spring_microservice\microservice_class_practice\build\classes\java\main started by m2arc in C:\workspace\study\spring_microservice\microservice_class_practice)
-20:49:03.039 DEBUG 34496 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-20:49:03.040  INFO 34496 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : No active profile set, falling back to default profiles: default
-20:49:03.193  INFO 34496 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : class path resource [microservice.yml]
-20:49:03.196  INFO 34496 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:/conf/microservice.yml]
-20:49:03.197  INFO 34496 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:c:/workspace/study/spring_microservice/microservice_class_practice/conf/microservice.yml]
-20:49:04.526  INFO 34496 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Started MicroserviceChassisApplication in 2.04 seconds (JVM running for 4.21)
-20:49:24.327  WARN 34496 --- [http-nio-8004-exec-3] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 400 BAD_REQUEST "param_one parameter는 <code>microservice</code>로 시작되어야 합니다."]
-20:50:11.393  WARN 34496 --- [http-nio-8004-exec-8] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 400 BAD_REQUEST "param_one parameter는 <code>microservice</code>로 시작되어야 합니다."]
-20:50:14.047  INFO 34496 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Starting MicroserviceChassisApplication on ZEN-SENTIMENTO with PID 34496 (C:\workspace\study\spring_microservice\microservice_class_practice\build\classes\java\main started by m2arc in C:\workspace\study\spring_microservice\microservice_class_practice)
-20:50:14.047 DEBUG 34496 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-20:50:14.047  INFO 34496 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : No active profile set, falling back to default profiles: default
-20:50:14.060  INFO 34496 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : class path resource [microservice.yml]
-20:50:14.061  INFO 34496 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:/conf/microservice.yml]
-20:50:14.061  INFO 34496 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:c:/workspace/study/spring_microservice/microservice_class_practice/conf/microservice.yml]
-20:50:14.575  INFO 34496 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Started MicroserviceChassisApplication in 0.574 seconds (JVM running for 74.259)
-20:50:29.134  WARN 34496 --- [http-nio-8004-exec-2] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 400 BAD_REQUEST "param_one parameter는 'microservice'로 시작되어야 합니다."]
-21:11:16.247  INFO 34496 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Starting MicroserviceChassisApplication on ZEN-SENTIMENTO with PID 34496 (C:\workspace\study\spring_microservice\microservice_class_practice\build\classes\java\main started by m2arc in C:\workspace\study\spring_microservice\microservice_class_practice)
-21:11:16.247 DEBUG 34496 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-21:11:16.247  INFO 34496 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : No active profile set, falling back to default profiles: default
-21:11:16.261  INFO 34496 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : class path resource [microservice.yml]
-21:11:16.262  INFO 34496 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:/conf/microservice.yml]
-21:11:16.262  INFO 34496 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:c:/workspace/study/spring_microservice/microservice_class_practice/conf/microservice.yml]
-21:11:16.579  INFO 34496 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Started MicroserviceChassisApplication in 0.377 seconds (JVM running for 1336.262)
-21:11:21.652  WARN 34496 --- [http-nio-8004-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'param_two' is not present]
-21:11:37.971  WARN 34496 --- [http-nio-8004-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Failure in @ExceptionHandler net.gentledot.microservice.microservicechassis.controller.exceptionAdvice.ApiExceptionHandler#handleBadInputRequestException(Exception, HttpStatus)
+00:04:59.219  INFO 31312 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Starting MicroserviceChassisApplication on ZEN-SENTIMENTO with PID 31312 (C:\workspace\study\spring_microservice\microservice_class_practice\build\classes\java\main started by m2arc in C:\workspace\study\spring_microservice\microservice_class_practice)
+00:04:59.224 DEBUG 31312 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+00:04:59.224  INFO 31312 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : No active profile set, falling back to default profiles: default
+00:04:59.246  INFO 31312 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : class path resource [microservice.yml]
+00:04:59.248  INFO 31312 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:/conf/microservice.yml]
+00:04:59.248  INFO 31312 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:c:/workspace/study/spring_microservice/microservice_class_practice/conf/microservice.yml]
+00:04:59.756  INFO 31312 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Started MicroserviceChassisApplication in 0.601 seconds (JVM running for 8502.71)
+01:18:27.457  INFO 31312 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Starting MicroserviceChassisApplication on ZEN-SENTIMENTO with PID 31312 (C:\workspace\study\spring_microservice\microservice_class_practice\build\classes\java\main started by m2arc in C:\workspace\study\spring_microservice\microservice_class_practice)
+01:18:27.458 DEBUG 31312 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+01:18:27.458  INFO 31312 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : No active profile set, falling back to default profiles: default
+01:18:27.471  INFO 31312 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : class path resource [microservice.yml]
+01:18:27.472  INFO 31312 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:/conf/microservice.yml]
+01:18:27.472  INFO 31312 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:c:/workspace/study/spring_microservice/microservice_class_practice/conf/microservice.yml]
+01:18:27.817  INFO 31312 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Started MicroserviceChassisApplication in 0.402 seconds (JVM running for 12910.772)
+01:19:12.305  INFO 31312 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Starting MicroserviceChassisApplication on ZEN-SENTIMENTO with PID 31312 (C:\workspace\study\spring_microservice\microservice_class_practice\build\classes\java\main started by m2arc in C:\workspace\study\spring_microservice\microservice_class_practice)
+01:19:12.306 DEBUG 31312 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+01:19:12.306  INFO 31312 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : No active profile set, falling back to default profiles: default
+01:19:12.319  INFO 31312 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : class path resource [microservice.yml]
+01:19:12.320  INFO 31312 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:/conf/microservice.yml]
+01:19:12.320  INFO 31312 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:c:/workspace/study/spring_microservice/microservice_class_practice/conf/microservice.yml]
+01:19:12.591  INFO 31312 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Started MicroserviceChassisApplication in 0.332 seconds (JVM running for 12955.545)
+01:21:35.041  INFO 31312 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Starting MicroserviceChassisApplication on ZEN-SENTIMENTO with PID 31312 (C:\workspace\study\spring_microservice\microservice_class_practice\build\classes\java\main started by m2arc in C:\workspace\study\spring_microservice\microservice_class_practice)
+01:21:35.041 DEBUG 31312 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+01:21:35.041  INFO 31312 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : No active profile set, falling back to default profiles: default
+01:21:35.068  INFO 31312 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : class path resource [microservice.yml]
+01:21:35.069  INFO 31312 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:/conf/microservice.yml]
+01:21:35.070  INFO 31312 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:c:/workspace/study/spring_microservice/microservice_class_practice/conf/microservice.yml]
+01:21:35.436  INFO 31312 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Started MicroserviceChassisApplication in 0.432 seconds (JVM running for 13098.39)
+01:24:05.627  INFO 31312 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Starting MicroserviceChassisApplication on ZEN-SENTIMENTO with PID 31312 (C:\workspace\study\spring_microservice\microservice_class_practice\build\classes\java\main started by m2arc in C:\workspace\study\spring_microservice\microservice_class_practice)
+01:24:05.628 DEBUG 31312 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+01:24:05.628  INFO 31312 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : No active profile set, falling back to default profiles: default
+01:24:05.641  INFO 31312 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : class path resource [microservice.yml]
+01:24:05.642  INFO 31312 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:/conf/microservice.yml]
+01:24:05.642  INFO 31312 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:c:/workspace/study/spring_microservice/microservice_class_practice/conf/microservice.yml]
+01:24:05.645  WARN 31312 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [net.gentledot.microservice.microservicechassis.MicroserviceChassisApplication]; nested exception is java.io.FileNotFoundException: class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.class] cannot be opened because it does not exist
+01:24:05.665 ERROR 31312 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
 
-java.lang.IllegalStateException: Could not resolve parameter [1] in public org.springframework.http.ResponseEntity<net.gentledot.microservice.microservicechassis.model.response.ResponseError> net.gentledot.microservice.microservicechassis.controller.exceptionAdvice.ApiExceptionHandler.handleBadInputRequestException(java.lang.Exception,org.springframework.http.HttpStatus): No suitable resolver
-	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:164)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
-	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:407)
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
-	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:141)
-	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
-	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1300)
-	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1111)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-
-21:11:37.976 ERROR 34496 --- [http-nio-8004-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NumberFormatException: For input string: "geag"] with root cause
-
-java.lang.NumberFormatException: For input string: "geag"
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
-	at java.base/java.lang.Integer.parseInt(Integer.java:652)
-	at java.base/java.lang.Integer.parseInt(Integer.java:770)
-	at net.gentledot.microservice.microservicechassis.controller.ExceptionApi.demoExceptionGlobal(ExceptionApi.java:31)
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [net.gentledot.microservice.microservicechassis.MicroserviceChassisApplication]; nested exception is java.io.FileNotFoundException: class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.class] cannot be opened because it does not exist
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:188)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:319)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:236)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:280)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:96)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:706)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at net.gentledot.microservice.microservicechassis.MicroserviceChassisApplication.main(MicroserviceChassisApplication.java:10)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.io.FileNotFoundException: class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:180)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.getClassReader(SimpleMetadataReader.java:55)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:49)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103)
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.createMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:86)
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.getMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:73)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:81)
+	at org.springframework.context.annotation.ConfigurationClassParser.asSourceClass(ConfigurationClassParser.java:695)
+	at org.springframework.context.annotation.ConfigurationClassParser$SourceClass.getSuperClass(ConfigurationClassParser.java:1009)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:340)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:249)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:198)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:303)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:249)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:206)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:174)
+	... 19 common frames omitted
+
+01:24:34.462  INFO 16832 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Starting MicroserviceChassisApplication on ZEN-SENTIMENTO with PID 16832 (C:\workspace\study\spring_microservice\microservice_class_practice\build\classes\java\main started by m2arc in C:\workspace\study\spring_microservice\microservice_class_practice)
+01:24:34.464 DEBUG 16832 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+01:24:34.465  INFO 16832 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : No active profile set, falling back to default profiles: default
+01:24:34.607  INFO 16832 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : class path resource [microservice.yml]
+01:24:34.609  INFO 16832 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:/conf/microservice.yml]
+01:24:34.610  INFO 16832 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:c:/workspace/study/spring_microservice/microservice_class_practice/conf/microservice.yml]
+01:24:36.199  INFO 16832 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Started MicroserviceChassisApplication in 2.194 seconds (JVM running for 3.538)
+01:24:55.010 ERROR 16832 --- [http-nio-8004-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+java.lang.IllegalStateException: No match found
+	at java.base/java.util.regex.Matcher.group(Matcher.java:645)
+	at net.gentledot.microservice.microservicechassis.filter.CheckEmailFilter.checkEmailAddress(CheckEmailFilter.java:43)
+	at net.gentledot.microservice.microservicechassis.filter.CheckEmailFilter.doFilter(CheckEmailFilter.java:26)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:155)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
 	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
@@ -134,28 +153,46 @@ java.lang.NumberFormatException: For input string: "geag"
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:834)
 
-21:12:39.166  WARN 34496 --- [http-nio-8004-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Failure in @ExceptionHandler net.gentledot.microservice.microservicechassis.controller.exceptionAdvice.ApiExceptionHandler#handleBadInputRequestException(Exception, HttpStatus)
+01:25:43.248 ERROR 16832 --- [http-nio-8004-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
 
-java.lang.IllegalStateException: Could not resolve parameter [1] in public org.springframework.http.ResponseEntity<net.gentledot.microservice.microservicechassis.model.response.ResponseError> net.gentledot.microservice.microservicechassis.controller.exceptionAdvice.ApiExceptionHandler.handleBadInputRequestException(java.lang.Exception,org.springframework.http.HttpStatus): No suitable resolver
-	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:164)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
-	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:407)
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
-	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:141)
-	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
-	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1300)
-	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1111)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+java.lang.IllegalStateException: No match found
+	at java.base/java.util.regex.Matcher.group(Matcher.java:645)
+	at net.gentledot.microservice.microservicechassis.filter.CheckEmailFilter.checkEmailAddress(CheckEmailFilter.java:43)
+	at net.gentledot.microservice.microservicechassis.filter.CheckEmailFilter.doFilter(CheckEmailFilter.java:26)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:155)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
 	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
@@ -187,33 +224,53 @@ java.lang.IllegalStateException: Could not resolve parameter [1] in public org.s
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:834)
 
-21:12:39.169 ERROR 34496 --- [http-nio-8004-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NumberFormatException: For input string: "geag"] with root cause
+01:25:45.772  INFO 16832 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Starting MicroserviceChassisApplication on ZEN-SENTIMENTO with PID 16832 (C:\workspace\study\spring_microservice\microservice_class_practice\build\classes\java\main started by m2arc in C:\workspace\study\spring_microservice\microservice_class_practice)
+01:25:45.772 DEBUG 16832 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+01:25:45.772  INFO 16832 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : No active profile set, falling back to default profiles: default
+01:25:45.788  INFO 16832 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : class path resource [microservice.yml]
+01:25:45.790  INFO 16832 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:/conf/microservice.yml]
+01:25:45.790  INFO 16832 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:c:/workspace/study/spring_microservice/microservice_class_practice/conf/microservice.yml]
+01:25:46.654  INFO 16832 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Started MicroserviceChassisApplication in 0.929 seconds (JVM running for 73.993)
+01:25:48.282 ERROR 16832 --- [http-nio-8004-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
 
-java.lang.NumberFormatException: For input string: "geag"
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
-	at java.base/java.lang.Integer.parseInt(Integer.java:652)
-	at java.base/java.lang.Integer.parseInt(Integer.java:770)
-	at net.gentledot.microservice.microservicechassis.controller.ExceptionApi.demoExceptionGlobal(ExceptionApi.java:31)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+java.lang.IllegalStateException: No match found
+	at java.base/java.util.regex.Matcher.group(Matcher.java:645)
+	at net.gentledot.microservice.microservicechassis.filter.CheckEmailFilter.checkEmailAddress(CheckEmailFilter.java:43)
+	at net.gentledot.microservice.microservicechassis.filter.CheckEmailFilter.doFilter(CheckEmailFilter.java:26)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:155)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
 	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
@@ -245,28 +302,53 @@ java.lang.NumberFormatException: For input string: "geag"
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:834)
 
-21:12:40.522  WARN 34496 --- [http-nio-8004-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Failure in @ExceptionHandler net.gentledot.microservice.microservicechassis.controller.exceptionAdvice.ApiExceptionHandler#handleBadInputRequestException(Exception, HttpStatus)
+01:25:58.890  INFO 29780 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Starting MicroserviceChassisApplication on ZEN-SENTIMENTO with PID 29780 (C:\workspace\study\spring_microservice\microservice_class_practice\build\classes\java\main started by m2arc in C:\workspace\study\spring_microservice\microservice_class_practice)
+01:25:58.893 DEBUG 29780 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+01:25:58.894  INFO 29780 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : No active profile set, falling back to default profiles: default
+01:25:59.137  INFO 29780 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : class path resource [microservice.yml]
+01:25:59.142  INFO 29780 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:/conf/microservice.yml]
+01:25:59.143  INFO 29780 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:c:/workspace/study/spring_microservice/microservice_class_practice/conf/microservice.yml]
+01:26:01.888  INFO 29780 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Started MicroserviceChassisApplication in 3.663 seconds (JVM running for 5.597)
+01:27:31.502 ERROR 29780 --- [http-nio-8004-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
 
-java.lang.IllegalStateException: Could not resolve parameter [1] in public org.springframework.http.ResponseEntity<net.gentledot.microservice.microservicechassis.model.response.ResponseError> net.gentledot.microservice.microservicechassis.controller.exceptionAdvice.ApiExceptionHandler.handleBadInputRequestException(java.lang.Exception,org.springframework.http.HttpStatus): No suitable resolver
-	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:164)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
-	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:407)
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
-	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:141)
-	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
-	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1300)
-	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1111)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+java.lang.IllegalStateException: No match found
+	at java.base/java.util.regex.Matcher.group(Matcher.java:645)
+	at net.gentledot.microservice.microservicechassis.filter.CheckEmailFilter.checkEmailAddress(CheckEmailFilter.java:43)
+	at net.gentledot.microservice.microservicechassis.filter.CheckEmailFilter.doFilter(CheckEmailFilter.java:26)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:155)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
 	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
@@ -298,33 +380,92 @@ java.lang.IllegalStateException: Could not resolve parameter [1] in public org.s
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:834)
 
-21:12:40.523 ERROR 34496 --- [http-nio-8004-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NumberFormatException: For input string: "geag"] with root cause
+01:28:55.918  INFO 21304 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Starting MicroserviceChassisApplication on ZEN-SENTIMENTO with PID 21304 (C:\workspace\study\spring_microservice\microservice_class_practice\build\classes\java\main started by m2arc in C:\workspace\study\spring_microservice\microservice_class_practice)
+01:28:55.921 DEBUG 21304 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+01:28:55.921  INFO 21304 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : No active profile set, falling back to default profiles: default
+01:28:56.094  INFO 21304 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : class path resource [microservice.yml]
+01:28:56.098  INFO 21304 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:/conf/microservice.yml]
+01:28:56.099  INFO 21304 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:c:/workspace/study/spring_microservice/microservice_class_practice/conf/microservice.yml]
+01:28:58.426  INFO 21304 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Started MicroserviceChassisApplication in 3.15 seconds (JVM running for 4.708)
+01:29:02.068  INFO 21304 --- [http-nio-8004-exec-2] n.g.m.m.filter.CheckEmailFilter          : pattern matched! : true
+01:29:23.953  INFO 21304 --- [http-nio-8004-exec-2] n.g.m.m.filter.CheckEmailFilter          : checkEmail_Name : peter.parker
+01:29:36.054  INFO 21304 --- [http-nio-8004-exec-2] n.g.m.m.filter.CheckEmailFilter          : checkEmail_domainName : avengers
+01:29:36.711  INFO 21304 --- [http-nio-8004-exec-2] n.g.m.m.filter.CheckEmailFilter          : checkEmail_domain : com
+01:30:19.810  INFO 7664 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Starting MicroserviceChassisApplication on ZEN-SENTIMENTO with PID 7664 (C:\workspace\study\spring_microservice\microservice_class_practice\build\classes\java\main started by m2arc in C:\workspace\study\spring_microservice\microservice_class_practice)
+01:30:19.813 DEBUG 7664 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+01:30:19.813  INFO 7664 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : No active profile set, falling back to default profiles: default
+01:30:19.970  INFO 7664 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : class path resource [microservice.yml]
+01:30:19.972  INFO 7664 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:/conf/microservice.yml]
+01:30:19.973  INFO 7664 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:c:/workspace/study/spring_microservice/microservice_class_practice/conf/microservice.yml]
+01:30:21.512  INFO 7664 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Started MicroserviceChassisApplication in 2.16 seconds (JVM running for 3.389)
+01:30:23.324  INFO 7664 --- [http-nio-8004-exec-2] n.g.m.m.filter.CheckEmailFilter          : pattern matched! : true
+01:30:23.326  INFO 7664 --- [http-nio-8004-exec-2] n.g.m.m.filter.CheckEmailFilter          : checkEmail_Name : peter.parker
+01:30:23.326  INFO 7664 --- [http-nio-8004-exec-2] n.g.m.m.filter.CheckEmailFilter          : checkEmail_domainName : avengers
+01:30:23.326  INFO 7664 --- [http-nio-8004-exec-2] n.g.m.m.filter.CheckEmailFilter          : checkEmail_domain : com
+01:30:26.303  INFO 7664 --- [http-nio-8004-exec-3] n.g.m.m.filter.CheckEmailFilter          : pattern matched! : true
+01:30:26.304  INFO 7664 --- [http-nio-8004-exec-3] n.g.m.m.filter.CheckEmailFilter          : checkEmail_Name : peter.parker
+01:30:26.304  INFO 7664 --- [http-nio-8004-exec-3] n.g.m.m.filter.CheckEmailFilter          : checkEmail_domainName : avengers
+01:30:26.304  INFO 7664 --- [http-nio-8004-exec-3] n.g.m.m.filter.CheckEmailFilter          : checkEmail_domain : com
+01:30:27.806  INFO 7664 --- [http-nio-8004-exec-4] n.g.m.m.filter.CheckEmailFilter          : pattern matched! : true
+01:30:27.807  INFO 7664 --- [http-nio-8004-exec-4] n.g.m.m.filter.CheckEmailFilter          : checkEmail_Name : peter.parker
+01:30:27.807  INFO 7664 --- [http-nio-8004-exec-4] n.g.m.m.filter.CheckEmailFilter          : checkEmail_domainName : avengers
+01:30:27.807  INFO 7664 --- [http-nio-8004-exec-4] n.g.m.m.filter.CheckEmailFilter          : checkEmail_domain : com
+01:32:13.616  INFO 7664 --- [http-nio-8004-exec-7] n.g.m.m.filter.CheckEmailFilter          : pattern matched! : true
+01:32:13.619  INFO 7664 --- [http-nio-8004-exec-7] n.g.m.m.filter.CheckEmailFilter          : checkEmail_Name : peter.parker
+01:32:13.620  INFO 7664 --- [http-nio-8004-exec-7] n.g.m.m.filter.CheckEmailFilter          : checkEmail_domainName : avengers
+01:32:13.620  INFO 7664 --- [http-nio-8004-exec-7] n.g.m.m.filter.CheckEmailFilter          : checkEmail_domain : com
+01:32:16.760  INFO 7664 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Starting MicroserviceChassisApplication on ZEN-SENTIMENTO with PID 7664 (C:\workspace\study\spring_microservice\microservice_class_practice\build\classes\java\main started by m2arc in C:\workspace\study\spring_microservice\microservice_class_practice)
+01:32:16.760 DEBUG 7664 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+01:32:16.760  INFO 7664 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : No active profile set, falling back to default profiles: default
+01:32:16.813  INFO 7664 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : class path resource [microservice.yml]
+01:32:16.815  INFO 7664 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:/conf/microservice.yml]
+01:32:16.816  INFO 7664 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:c:/workspace/study/spring_microservice/microservice_class_practice/conf/microservice.yml]
+01:32:18.065  INFO 7664 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Started MicroserviceChassisApplication in 1.407 seconds (JVM running for 119.942)
+01:32:18.456  INFO 7664 --- [http-nio-8004-exec-8] n.g.m.m.filter.CheckEmailFilter          : pattern matched! : true
+01:32:18.457  INFO 7664 --- [http-nio-8004-exec-8] n.g.m.m.filter.CheckEmailFilter          : checkEmail_Name : peter.parker
+01:32:18.457  INFO 7664 --- [http-nio-8004-exec-8] n.g.m.m.filter.CheckEmailFilter          : checkEmail_domainName : avengers
+01:32:18.458  INFO 7664 --- [http-nio-8004-exec-8] n.g.m.m.filter.CheckEmailFilter          : checkEmail_domain : com
+01:32:35.275  INFO 7664 --- [http-nio-8004-exec-2] n.g.m.m.filter.CheckEmailFilter          : pattern matched! : false
+01:32:35.279 ERROR 7664 --- [http-nio-8004-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
 
-java.lang.NumberFormatException: For input string: "geag"
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
-	at java.base/java.lang.Integer.parseInt(Integer.java:652)
-	at java.base/java.lang.Integer.parseInt(Integer.java:770)
-	at net.gentledot.microservice.microservicechassis.controller.ExceptionApi.demoExceptionGlobal(ExceptionApi.java:31)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+java.lang.IllegalStateException: No match found
+	at java.base/java.util.regex.Matcher.group(Matcher.java:645)
+	at net.gentledot.microservice.microservicechassis.filter.CheckEmailFilter.checkEmailAddress(CheckEmailFilter.java:45)
+	at net.gentledot.microservice.microservicechassis.filter.CheckEmailFilter.doFilter(CheckEmailFilter.java:26)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:155)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
 	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
@@ -356,192 +497,22 @@ java.lang.NumberFormatException: For input string: "geag"
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:834)
 
-21:13:18.799  INFO 2244 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Starting MicroserviceChassisApplication on ZEN-SENTIMENTO with PID 2244 (C:\workspace\study\spring_microservice\microservice_class_practice\build\classes\java\main started by m2arc in C:\workspace\study\spring_microservice\microservice_class_practice)
-21:13:18.803 DEBUG 2244 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-21:13:18.803  INFO 2244 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : No active profile set, falling back to default profiles: default
-21:13:18.977  INFO 2244 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : class path resource [microservice.yml]
-21:13:18.980  INFO 2244 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:/conf/microservice.yml]
-21:13:18.981  INFO 2244 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:c:/workspace/study/spring_microservice/microservice_class_practice/conf/microservice.yml]
-21:13:20.558  INFO 2244 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Started MicroserviceChassisApplication in 2.367 seconds (JVM running for 4.027)
-21:13:24.114  WARN 2244 --- [http-nio-8004-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Failure in @ExceptionHandler net.gentledot.microservice.microservicechassis.controller.exceptionAdvice.ApiExceptionHandler#handleBadInputRequestException(Exception, HttpStatus)
-
-java.lang.IllegalStateException: Could not resolve parameter [1] in public org.springframework.http.ResponseEntity<net.gentledot.microservice.microservicechassis.model.response.ResponseError> net.gentledot.microservice.microservicechassis.controller.exceptionAdvice.ApiExceptionHandler.handleBadInputRequestException(java.lang.Exception,org.springframework.http.HttpStatus): No suitable resolver
-	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:164)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
-	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:407)
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
-	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:141)
-	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
-	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1300)
-	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1111)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-
-21:13:24.145 ERROR 2244 --- [http-nio-8004-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NumberFormatException: For input string: "geag"] with root cause
-
-java.lang.NumberFormatException: For input string: "geag"
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
-	at java.base/java.lang.Integer.parseInt(Integer.java:652)
-	at java.base/java.lang.Integer.parseInt(Integer.java:770)
-	at net.gentledot.microservice.microservicechassis.controller.ExceptionApi.demoExceptionGlobal(ExceptionApi.java:31)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-
-21:14:22.916  INFO 2244 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Starting MicroserviceChassisApplication on ZEN-SENTIMENTO with PID 2244 (C:\workspace\study\spring_microservice\microservice_class_practice\build\classes\java\main started by m2arc in C:\workspace\study\spring_microservice\microservice_class_practice)
-21:14:22.916 DEBUG 2244 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-21:14:22.916  INFO 2244 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : No active profile set, falling back to default profiles: default
-21:14:22.943  INFO 2244 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : class path resource [microservice.yml]
-21:14:22.945  INFO 2244 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:/conf/microservice.yml]
-21:14:22.947  INFO 2244 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:c:/workspace/study/spring_microservice/microservice_class_practice/conf/microservice.yml]
-21:14:23.431  INFO 2244 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Started MicroserviceChassisApplication in 0.563 seconds (JVM running for 66.899)
-21:17:53.204  INFO 20204 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Starting MicroserviceChassisApplication on ZEN-SENTIMENTO with PID 20204 (C:\workspace\study\spring_microservice\microservice_class_practice\build\classes\java\main started by m2arc in C:\workspace\study\spring_microservice\microservice_class_practice)
-21:17:53.207 DEBUG 20204 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-21:17:53.207  INFO 20204 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : No active profile set, falling back to default profiles: default
-21:17:53.370  INFO 20204 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : class path resource [microservice.yml]
-21:17:53.373  INFO 20204 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:/conf/microservice.yml]
-21:17:53.374  INFO 20204 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:c:/workspace/study/spring_microservice/microservice_class_practice/conf/microservice.yml]
-21:17:54.726  INFO 20204 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Started MicroserviceChassisApplication in 1.997 seconds (JVM running for 4.136)
-21:17:58.279  WARN 20204 --- [http-nio-8004-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.NumberFormatException: For input string: "geag"]
-21:23:10.507  INFO 11292 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Starting MicroserviceChassisApplication on ZEN-SENTIMENTO with PID 11292 (C:\workspace\study\spring_microservice\microservice_class_practice\build\classes\java\main started by m2arc in C:\workspace\study\spring_microservice\microservice_class_practice)
-21:23:10.512 DEBUG 11292 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-21:23:10.513  INFO 11292 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : No active profile set, falling back to default profiles: default
-21:23:10.723  INFO 11292 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : class path resource [microservice.yml]
-21:23:10.729  INFO 11292 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:/conf/microservice.yml]
-21:23:10.730  INFO 11292 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:c:/workspace/study/spring_microservice/microservice_class_practice/conf/microservice.yml]
-21:23:12.162  INFO 11292 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Started MicroserviceChassisApplication in 2.403 seconds (JVM running for 4.084)
-21:24:04.982  WARN 11292 --- [http-nio-8004-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.NumberFormatException: For input string: "geag"]
-21:43:19.139  INFO 31312 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Starting MicroserviceChassisApplication on ZEN-SENTIMENTO with PID 31312 (C:\workspace\study\spring_microservice\microservice_class_practice\build\classes\java\main started by m2arc in C:\workspace\study\spring_microservice\microservice_class_practice)
-21:43:19.141 DEBUG 31312 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-21:43:19.141  INFO 31312 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : No active profile set, falling back to default profiles: default
-21:43:19.292  INFO 31312 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : class path resource [microservice.yml]
-21:43:19.298  INFO 31312 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:/conf/microservice.yml]
-21:43:19.298  INFO 31312 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:c:/workspace/study/spring_microservice/microservice_class_practice/conf/microservice.yml]
-21:43:20.704  INFO 31312 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Started MicroserviceChassisApplication in 2.059 seconds (JVM running for 3.658)
-21:43:25.362  WARN 31312 --- [http-nio-8004-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.NumberFormatException: For input string: "geag"]
-21:46:13.518  WARN 31312 --- [http-nio-8004-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.NumberFormatException: For input string: "geag"]
-21:46:15.071  INFO 31312 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Starting MicroserviceChassisApplication on ZEN-SENTIMENTO with PID 31312 (C:\workspace\study\spring_microservice\microservice_class_practice\build\classes\java\main started by m2arc in C:\workspace\study\spring_microservice\microservice_class_practice)
-21:46:15.071 DEBUG 31312 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-21:46:15.071  INFO 31312 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : No active profile set, falling back to default profiles: default
-21:46:15.084  INFO 31312 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : class path resource [microservice.yml]
-21:46:15.085  INFO 31312 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:/conf/microservice.yml]
-21:46:15.085  INFO 31312 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:c:/workspace/study/spring_microservice/microservice_class_practice/conf/microservice.yml]
-21:46:15.446  INFO 31312 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Started MicroserviceChassisApplication in 0.423 seconds (JVM running for 178.4)
-21:46:15.487  WARN 31312 --- [http-nio-8004-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.NumberFormatException: For input string: "geag"]
-21:48:20.577  INFO 31312 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Starting MicroserviceChassisApplication on ZEN-SENTIMENTO with PID 31312 (C:\workspace\study\spring_microservice\microservice_class_practice\build\classes\java\main started by m2arc in C:\workspace\study\spring_microservice\microservice_class_practice)
-21:48:20.577 DEBUG 31312 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-21:48:20.577  INFO 31312 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : No active profile set, falling back to default profiles: default
-21:48:20.589  INFO 31312 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : class path resource [microservice.yml]
-21:48:20.590  INFO 31312 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:/conf/microservice.yml]
-21:48:20.591  INFO 31312 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:c:/workspace/study/spring_microservice/microservice_class_practice/conf/microservice.yml]
-21:48:20.987  INFO 31312 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Started MicroserviceChassisApplication in 0.456 seconds (JVM running for 303.942)
-21:48:33.814  INFO 31312 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Starting MicroserviceChassisApplication on ZEN-SENTIMENTO with PID 31312 (C:\workspace\study\spring_microservice\microservice_class_practice\build\classes\java\main started by m2arc in C:\workspace\study\spring_microservice\microservice_class_practice)
-21:48:33.814 DEBUG 31312 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-21:48:33.814  INFO 31312 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : No active profile set, falling back to default profiles: default
-21:48:33.830  INFO 31312 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : class path resource [microservice.yml]
-21:48:33.831  INFO 31312 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:/conf/microservice.yml]
-21:48:33.832  INFO 31312 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:c:/workspace/study/spring_microservice/microservice_class_practice/conf/microservice.yml]
-21:48:34.216  INFO 31312 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Started MicroserviceChassisApplication in 0.487 seconds (JVM running for 317.17)
-21:48:37.793  WARN 31312 --- [http-nio-8004-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.NumberFormatException: For input string: "geag"]
-21:49:01.027  WARN 31312 --- [http-nio-8004-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.NumberFormatException: For input string: "geag"]
-21:49:10.408  WARN 31312 --- [http-nio-8004-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.io.FileNotFoundException: a-not-exists-file.txt (지정된 파일을 찾을 수 없습니다)]
-21:55:03.105  INFO 31312 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Starting MicroserviceChassisApplication on ZEN-SENTIMENTO with PID 31312 (C:\workspace\study\spring_microservice\microservice_class_practice\build\classes\java\main started by m2arc in C:\workspace\study\spring_microservice\microservice_class_practice)
-21:55:03.105 DEBUG 31312 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-21:55:03.105  INFO 31312 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : No active profile set, falling back to default profiles: default
-21:55:03.119  INFO 31312 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : class path resource [microservice.yml]
-21:55:03.120  INFO 31312 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:/conf/microservice.yml]
-21:55:03.120  INFO 31312 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:c:/workspace/study/spring_microservice/microservice_class_practice/conf/microservice.yml]
-21:55:03.477  INFO 31312 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Started MicroserviceChassisApplication in 0.423 seconds (JVM running for 706.432)
-22:02:44.443  INFO 31312 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Starting MicroserviceChassisApplication on ZEN-SENTIMENTO with PID 31312 (C:\workspace\study\spring_microservice\microservice_class_practice\build\classes\java\main started by m2arc in C:\workspace\study\spring_microservice\microservice_class_practice)
-22:02:44.444 DEBUG 31312 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-22:02:44.444  INFO 31312 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : No active profile set, falling back to default profiles: default
-22:02:44.455  INFO 31312 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : class path resource [microservice.yml]
-22:02:44.456  INFO 31312 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:/conf/microservice.yml]
-22:02:44.456  INFO 31312 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:c:/workspace/study/spring_microservice/microservice_class_practice/conf/microservice.yml]
-22:02:44.802  INFO 31312 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Started MicroserviceChassisApplication in 0.409 seconds (JVM running for 1167.756)
+01:33:12.906  INFO 7664 --- [http-nio-8004-exec-1] n.g.m.m.filter.CheckEmailFilter          : pattern matched! : true
+01:33:12.907  INFO 7664 --- [http-nio-8004-exec-1] n.g.m.m.filter.CheckEmailFilter          : checkEmail_Name : wrongEmailpeter.parker
+01:33:12.907  INFO 7664 --- [http-nio-8004-exec-1] n.g.m.m.filter.CheckEmailFilter          : checkEmail_domainName : avengers
+01:33:12.907  INFO 7664 --- [http-nio-8004-exec-1] n.g.m.m.filter.CheckEmailFilter          : checkEmail_domain : com
+01:33:14.875  INFO 7664 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Starting MicroserviceChassisApplication on ZEN-SENTIMENTO with PID 7664 (C:\workspace\study\spring_microservice\microservice_class_practice\build\classes\java\main started by m2arc in C:\workspace\study\spring_microservice\microservice_class_practice)
+01:33:14.875 DEBUG 7664 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+01:33:14.876  INFO 7664 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : No active profile set, falling back to default profiles: default
+01:33:14.896  INFO 7664 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : class path resource [microservice.yml]
+01:33:14.897  INFO 7664 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:/conf/microservice.yml]
+01:33:14.898  INFO 7664 --- [restartedMain] n.g.m.m.c.YamlPropertySourceFactory      : resource : URL [file:c:/workspace/study/spring_microservice/microservice_class_practice/conf/microservice.yml]
+01:33:15.449  INFO 7664 --- [restartedMain] n.g.m.m.MicroserviceChassisApplication   : Started MicroserviceChassisApplication in 0.625 seconds (JVM running for 177.326)
+01:33:15.647  INFO 7664 --- [http-nio-8004-exec-4] n.g.m.m.filter.CheckEmailFilter          : checkEmail_Name : wrongEmailpeter.parker
+01:33:15.649  INFO 7664 --- [http-nio-8004-exec-4] n.g.m.m.filter.CheckEmailFilter          : checkEmail_domainName : avengers
+01:33:15.649  INFO 7664 --- [http-nio-8004-exec-4] n.g.m.m.filter.CheckEmailFilter          : checkEmail_domain : com
+01:33:40.248  INFO 7664 --- [http-nio-8004-exec-9] n.g.m.m.filter.CheckEmailFilter          : checkEmail_Name : peter.parker
+01:33:40.249  INFO 7664 --- [http-nio-8004-exec-9] n.g.m.m.filter.CheckEmailFilter          : checkEmail_domainName : avengers
+01:33:40.249  INFO 7664 --- [http-nio-8004-exec-9] n.g.m.m.filter.CheckEmailFilter          : checkEmail_domain : com
+01:35:50.482 DEBUG 7664 --- [http-nio-8004-exec-4] n.g.m.m.controller.LogApi                : DemoLog() starts
+01:35:50.727 DEBUG 7664 --- [http-nio-8004-exec-4] n.g.m.m.controller.LogApi                : DemoLog() ends
